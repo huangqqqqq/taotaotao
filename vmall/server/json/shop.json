@@ -1,0 +1,18 @@
+{
+    "code": "0",
+    "data": [{
+            "id": 1,
+            "title": "荣耀V10 全网通标配版 4GB+64GB（魅丽红）",
+            "price": "1999.00",
+            "save":"￥2799",
+            "src": "./static/images/glass1.jpg",
+            "img":[{
+                "src1": "./static/images/glass1.jpg",
+                "src2": "./static/images/glass2.jpg" ,
+                "src3": "./static/images/glass3.jpg" ,
+                "src4":"./static/images/glass4.jpg" ,
+                "src5": "./static/images/glass5.jpg" 
+            }]
+        }]
+        
+}

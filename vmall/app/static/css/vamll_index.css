@@ -1,0 +1,790 @@
+#nav_wrapper{
+    background-color: fff;
+}
+.nav{
+    background-color: fff;
+} 
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.boutique{
+    height: 742px;
+    background-color: #fff;
+    /* margin: auto; */
+}
+
+.hr_40{
+    height: 40px;
+    background-color: #fff;
+}
+.hr_18{
+    height: 18px;
+    background-color: #fff;
+}
+.hr_nav{
+    box-sizing: border-box;
+    height: 684px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+    border-bottom: 1px solid rgb(201, 196, 196);
+}
+.hr_nav_content{
+    height: 618px;
+    padding: 11px 0;
+}
+.h{
+    height: 32px;
+    padding-bottom: 20px;  
+  
+}
+
+.h .hr_title{
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    font-size: 18px;
+    width: 118px;
+    padding-left: 20px; 
+   
+}
+.b{
+    height: 378px;
+  
+    width: 1158px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(201, 196, 196);
+    border-radius: 5px;
+   
+}
+.hr_list{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+    height: 378px;
+    box-sizing: border-box;
+} 
+.hr_list .hr_item{
+    height: 100%;
+    width: 25%;
+    border-left: 1px solid rgb(199, 196, 196);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+    text-align: center;
+}
+
+.hr_list .hr_item .hr_lj:hover{
+    box-shadow: inset 0 0 35px 2px rgba(44, 0, 0, 0.15) ;
+}
+.hr_list .hr_item:nth-child(1){
+    border-left: none;
+}
+.hr_lj{
+   box-sizing: border-box;
+    width: 290px;
+    height: 378px;
+    position: absolute;
+    
+}
+.hr_img{
+   /* width: 100%;
+   height: 250px; */
+   margin: 30px;
+  
+}
+.hr_title{
+    /* height: 44px;
+    padding-top: 10px; */
+    padding-bottom: 2px;
+    font-size: 18px;
+    color: black;
+  
+}
+.hr_desc{
+    height: 28px;
+    line-height: 28px;
+    color: rgb(179, 176, 176);
+    width: 100%;
+  
+}
+.hr_price{
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    color: #00b5e2;
+}
+.hr_i{
+    position: relative;
+    margin-left: 165px;
+    top: -161px;
+    display: inline-block;
+}  
+
+.hr_20{
+    height: 20px;
+    
+}
+.c{
+    width: 1160px;
+    height: 200px;
+}
+.hr_magicbook{
+    width: 1160px;
+    height: 200px;
+}
+.hr_book{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    overflow: hidden;
+   
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+   
+}
+.hr_b_item{
+   
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #DDD;
+   width: 386px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    cursor:pointer;
+    text-align: center;
+}
+.hr_book .hr_b_item .hr_b_lj:hover{
+    box-shadow: inset 0 0 20px rgba(0, 0, 0,0.4) ;
+}
+
+.hr_b_lj{
+    display: block;
+    box-sizing: border-box;
+    width: 386px;
+    height: 198px;
+     
+ }
+
+
+ /* 全部 */
+.hr_home-h{
+    width: 100%;
+   
+    overflow: hidden;
+}
+/* 手机 */
+/* 平板&笔记本 */
+/* 智能穿戴 */
+.hr_20{
+    height: 20px;
+    background-color: #ffffff;
+}
+.hr_38{
+    height: 38px;
+    background-color: #ffffff;
+}
+.hr_phone{
+    box-sizing: border-box;
+    height: 560px;
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); */
+    
+    box-shadow: 0 0 15px 6px rgba(44,101,186,0.15);
+}
+.hr_p_box{
+   
+    height: 40px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 4px 4px 0  0;
+    padding-top: 13px;
+}
+.hr_p_sj{
+   
+    background-color: rgb(255, 255, 255);
+   
+    height: 32px;
+    float: left;
+    
+}
+.hr_p_h{
+    
+    height: 34px;
+    line-height: 34px;
+   
+    
+}
+.hr_p_h a{
+    display: block;
+ 
+  
+    font-size: 20px;
+    padding-left: 30px;
+    color: rgb(119, 117, 117);
+   
+   
+}
+.hr_p_list{
+    
+   
+    
+    line-height: 32px;
+    float: left;
+    background-color: #fff;
+    padding-left: 30px;
+}
+.hr_p_item{
+    float: left;
+   
+    font-size: 16px;
+    color: #868282;
+   
+    height: 32px;
+    text-align: center;
+    padding: 0 10px;
+}
+.hr_p_item a{
+    display: block;
+    color: #868282;
+}
+.hr_p_more{
+    width: 82px;
+    height: 20px;
+    background-color:#fff;
+    float: right;
+    font-size: 18px;
+   
+    text-align: center;
+}
+.hr_p_more a span{
+    display: block;
+    color: #837a7a;
+    float: left;
+    padding-right: 20px;
+}
+.hr_p_more a i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;
+   
+    background: url(../images/icon-honor.png) no-repeat;
+    
+}
+.hr_p_box a:hover{
+    color: rgb(101, 189, 211);
+}
+.hr_p_box .hr_p_more a span:hover{
+    color: rgb(101, 189, 211);
+}
+
+/* 荣耀畅玩7 */
+
+/* 图片hover效果 */
+
+.hr_p_minibox{
+    height: 510px;
+}
+.minibox_left{
+    float: left;
+    width: 390px;
+    height: 510px;
+}
+.minibox_left_item{
+    width: 370px;
+    height: 490px;
+    margin-left: 20px;
+    cursor:pointer;
+   
+   display: flex;
+}
+.minibox_cw_list{
+    width: 370px;
+    height: 490px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+.minibox_cw_item a:hover{
+  
+    box-shadow: inset 0 0 35px 2px rgba(44, 0, 0, 0.15) ;
+}
+.minibox_cw_list  a{
+    width: 370px;
+    height: 490px;
+    position: absolute;
+}
+.minibox_cw_list a img{
+    width: 370px;
+    height: 490px;
+}
+
+
+/*  ============================= */
+
+.minibox_right{
+    float: left;
+    width: 790px;
+    height: 510px;
+   
+
+  
+}
+
+
+.minibox_hr_list{
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0;
+    height: 100%;
+}
+
+.minibox_hr_list_item{
+    height: 235px;
+    width: 375px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    float: left;
+
+    border-radius: 5px;
+    overflow: hidden;
+  
+    position: relative;
+    margin: 0 0 20px 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  
+}
+.minibox_hr_list_item:hover{
+    box-shadow: inset 0 0 35px 2px rgba(44, 0, 0, 0.15) ;
+    
+}
+
+    
+
+.minibox_hr_list_item _lj{
+    display: block;
+    width: 100%;
+    height: 100%;
+   
+}
+.minibox_hr_list_item_p{
+   
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-left: 25px;
+   float: left;
+  
+}
+.minibox_hr_list_item_p img{
+    width: 150px;
+    height: 150px;
+    display: block;
+   
+}
+.minibox_hr_list_item_box{
+    float: right;
+    width: 183px;
+    height: 150px;
+   
+}
+.minibox_hr_list_item_h2{
+    margin-top: 25px;
+    color: #000;
+    width: 183px;
+    height: 43px;
+   
+    text-align: left;
+   font-size: 20px;
+}
+.minibox_hr_list_item_js{
+    margin-top: 8px;
+    width: 183px;
+   
+    color: rgb(129, 126, 126);
+  
+
+}
+.minibox_hr_list_item_jg{
+    width: 183px;
+    height: 34px;
+    line-height: 34px;
+    color: rgb(177, 235, 245);
+}
+.minibox_hr_list_item_z{
+    position: absolute;
+    top: 160px;
+    right: 200px;
+
+}
+/* --------------------- */
+/* 智能家居 */
+ 
+.hr_38{
+    height: 38px;
+    background-color: #ffffff;
+}
+.hr_phone_jj{
+    box-sizing: border-box;
+    height: 712px;
+    background-color: rgb(255, 255, 255);
+    width: 1200px;
+    margin: 10px auto;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+    
+    box-shadow: 0 0 15px 6px rgba(44,101,186,0.15);
+}
+.hr_p_box_jj{
+   
+    height: 40px;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 4px 4px 0  0;
+    padding-top: 13px;
+}
+.hr_p_sj_jj{
+   
+    background-color: rgb(255, 255, 255);
+   
+    height: 32px;
+    float: left;
+    
+}
+.hr_p_h_jj{
+    
+    height: 34px;
+    line-height: 34px;
+   
+    
+}
+.hr_p_h_jj a{
+    display: block;
+ 
+  
+    font-size: 20px;
+    padding-left: 30px;
+    color: rgb(119, 117, 117);
+   
+   
+}
+/* ul */
+.hr_p_list_jj{   
+    line-height: 32px;
+    float: left;
+    background-color: #fff;
+    padding-left: 30px;
+}
+.hr_p_item_jj{
+    float: left;
+   
+    font-size: 16px;
+    color: #868282;
+   
+    height: 32px;
+    text-align: center;
+    padding: 0 10px;
+}
+.hr_p_item_jj a{
+    display: block;
+    color: #868282;
+}
+
+.hr_p_more_jj{
+    width: 82px;
+    height: 20px;
+    background-color:#fff;
+    float: right;
+    font-size: 18px;
+   
+    text-align: center;
+}
+.hr_p_more_jj a span{
+    display: block;
+    color: #837a7a;
+    float: left;
+    padding-right: 20px;
+}
+
+
+.hr_p_more_jj a i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: left;   
+    background: url(../images/icon-honor.png) no-repeat;    
+}
+
+.hr_p_box_jj a:hover{
+    color: rgb(101, 189, 211);
+}
+.hr_p_box_jj .hr_p_more_jj a span:hover{
+    color: rgb(101, 189, 211);
+}
+
+/* 荣耀畅玩7 */
+
+/* 图片hover效果 */
+
+.hr_p_minibox_jj{
+    height: 712px;
+}
+.minibox_left_jj{
+    float: left;
+    width: 320px;
+    height: 606px;
+}
+.minibox_left_item_jj{
+    width: 300px;
+    height: 606px;
+    margin-left: 20px;
+    cursor:pointer;
+   
+   display: flex;
+}
+.minibox_cw_list_jj{
+    width: 300px;
+    height: 606px;
+    box-sizing: border-box;
+    cursor:pointer;
+}
+.minibox_cw_item_jj a:hover{
+  
+    box-shadow: inset 0 0 35px 2px rgba(44, 0, 0, 0.15) ;
+}
+.minibox_cw_list_jj  a{
+    width: 300px;
+    height: 606px;
+    position: absolute;
+}
+.minibox_cw_list_jj a img{
+    width: 300px;
+    height: 606px;
+}
+
+
+/*  ============================= */
+
+.minibox_right_jj{
+    float: left;
+    width: 860px;
+    height: 606px;
+   
+
+  
+} 
+
+
+.minibox_list_jj{
+    float: left;
+    border-radius: 5px;
+    overflow: hidden;   
+    width: 860px;
+    height: 294px;
+   position: relative;  
+} 
+
+ .minibox_list_item_jj{
+    height: 292px;
+    width: 408px;  
+    float: left;
+   box-sizing: border-box;
+    border-radius: 5px;  
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+} 
+
+    
+
+.minibox_list_item_lj{
+    display: block;
+   
+    height: 292px;
+    width: 408px;  
+  
+   
+    
+} 
+
+.minibox_list_item_lj_p{
+  
+    display: block;
+   width: 410px;
+   height: 294px;
+    
+} 
+.minibox_list_item_lj_p img{
+    display: block;
+    width: 410px;
+    height: 294px;
+
+}
+
+.minibox_list_item_box_jj{
+    height: 78px;
+    width: 390px;
+   position: absolute;
+   padding-left: 20px;
+    bottom: 0;
+    left: 20px;
+    background: rgba(143, 145, 148, 0.45);
+    overflow: hidden;
+   
+}
+.minibox_list_item_jj:hover .minibox_list_item_box_jj{
+    background: #00b5e2;
+}
+
+.minibox_list_item_box_jj_right{
+    height: 78px;
+    width: 390px;
+   position: absolute;
+   background: rgba(143, 145, 148, 0.45);
+    bottom: 0;
+    left: 450px;
+    padding-left: 18px;
+    overflow: hidden;
+}
+.minibox_list_item_jj:hover .minibox_list_item_box_jj_right{
+    background: #00b5e2;
+}
+.minibox_list_item_h2_jj{
+    margin-top: 10px;
+    height: 28px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.minibox_list_item_jg_jj{
+    height: 26px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+
+
+.minibox_hr_list_item_b{
+    width: 860px;
+    height: 290px;
+    margin-top: 20px;
+   
+    float: left;
+}
+
+.minibox_hr_list_item_bb{
+    width: 264px;
+    height: 290px;
+    border: 1px solid rgb(218, 213, 213);
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.minibox_hr_list_item_bb:hover{
+    box-shadow: inset 0 0 20px rgba(0, 0, 0,0.4) ;
+}
+.minibox_hr_list_item_lj_bb{
+    width: 264px;
+    height: 100%;
+    display: block;
+
+}
+
+.minibox_list_item_p{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: block;
+}
+.minibox_hr_list_item_lj_bb img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-align: center;
+    margin: 20px 0 0 60px;
+}
+.hr_list_item_lybox{
+    width: 100%;
+}
+.hr_list_item_lyh2{
+   height: 30px;
+   line-height: 30px;
+    width: 100%;
+    color: #000;
+   font-size: 18   px;
+}
+.hr_list_item_lyjs{
+   margin-top: 10px;
+    color: rgb(182, 182, 182);
+    font-size: 18px;
+}
+.hr_list_item_lujg{
+    margin-top: 10px;
+    color: rgb(128, 200, 228);
+    font-size: 18px;
+}
+.hr_list_item_rm{
+    width: 48px;
+    height: 48px;
+   position: absolute;
+}
+.hr_list_item_rm img{
+    display:inline-block;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    top: -168px;
+    left: 110px;
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册_华为账号</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_942976_lkt6lj0z9v9.css">
+    <link rel="stylesheet" href="static/css/common.css">
+    <link rel="stylesheet" href="static/css/register.css">
+</head>
+<body>
+    <!--头部——logo-->
+    <div id="header">
+        <div class="header_con">
+            <h1>
+                <img src="static/images/head-top_logo.png" alt="">
+            </h1>
+            <div class="header_name">
+                <b style="color:#ccc;line-height:67px;font-size:18px;">|</b>
+                <b style="line-height:67px;font-size:18px;margin-left: 18px;">华为商城</b>
+            </div>
+        </div>
+    </div>
+    <!--主体内容表单内容-->
+
+    <div id="reg">
+        <div class="reg_con">
+            <div class="reg_header">
+                <div class="active"><i class="iconfont icon-tel"></i>手机号</div>
+                <div class=""><i class="iconfont icon-weibiaoti103"></i>电子邮箱</div>
+            </div>
+            <div class="reg_login">
+                <p>已有华为账号<a href="login.html" rel="noopener noreferrer">登录></a></p>
+            </div>
+
+
+            <div class="reg_inp">
+            <!--地区选择-->
+                <div class="area">
+                    <div class="reg_inp_area">国 家 / 地 区</div>
+                    <select class="form-control">
+                        <option>中国</option>
+                        <option>中国香港特别行政区</option>
+                        <option>中国澳门特别行政区</option>
+                        <option>美国</option>
+                        <option>英国</option>
+                        </select>
+                </div>
+                <!--表单-->
+                <form class="form-box" autocomplete="off" onsubmit="return false;">
+                    <div class="form-group">
+                        <div class="reg_phone allt">+86(中国)</div>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="请输入手机号" hint="手机号格式不正确">
+                        <p class="danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <div class="reg_password allt">验证码</div>
+                        <input type="text" id="code" class="form-control" name="code" placeholder="请输入验证码" hint="验证码不正确">
+                        <p class="danger" ></p>
+                    </div>
+                    <div class="form-group">
+                        <div class="reg_password allt">密码</div>
+                        <input type="password" id="password" class="form-control" name="password" placeholder="请输入密码" hint="密码格式不正确">
+                        <p class="danger" ></p>
+                    </div>
+                    <div class="form-group">
+                        <div class="reg_repassword allt">确认密码</div>
+                        <input type="password" id="repassword" class="form-control" name="repassword" placeholder="请再次输入密码" hint="两次密码输入不一致">
+                        <p class="danger" ></p>
+                    </div>
+                    <button type="button" class="btn btn-danger" >注册</button>
+                </form>      
+            </div>
+        </div>
+    </div>
+<!--底部-->
+<div id="footer">
+    <div class="footer_con">
+        <div id="" style="margin-bottom:30px;width:100%;height:2px;background:#ccc;"></div>
+        <p>华为账号用户协议&nbsp;&nbsp;|&nbsp;&nbsp;关于华为账号与隐私的声明&nbsp;&nbsp;|&nbsp;&nbsp;常见问题</p>
+        <p>Copyright&nbsp;©&nbsp;2011-2018&nbsp;&nbsp;华为软件技术有限公司&nbsp;&nbsp;版权所有&nbsp;&nbsp;保留一切权利&nbsp;&nbsp;苏B2-20070200号&nbsp;|&nbsp;苏ICP备09062682号-9</p>
+    </div>
+   
+</div>
+<script src="static/js/ajax0.1.0.js"></script>
+<script src="static/js/register.js"></script>
+<script>
+    register.init();
+
+
+</script>
+</body>
+</html>

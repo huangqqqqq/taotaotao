@@ -1,0 +1,251 @@
+#header{
+    width: 100%;background: #f7f7f7;
+    .header_con{
+        width: auto;max-width: 998px;margin: 0 auto;position: relative;
+        h1{
+            float: left;margin-right:20px;
+            img{
+                margin: 17px 0 0 4px;
+            } 
+        }
+    }
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+//提示
+#allt{
+    width: 100%;background: #FFFBE4;
+    .allt_con{
+        display: block;height: 40px;text-align: center;line-height: 40px;color: #989898;
+        font-size: 12px;
+        i{
+            
+        }
+    }
+}
+
+
+//主体登录样式
+#login{
+    width: 100%;
+    background: url(../images/login_bg.png) no-repeat;
+    background-size: 100% 100%;float: left;
+    .login_con{
+        width: 380px;height: 530px;position: relative;margin: 30px 0;background: #fff;
+        float: right;margin-right: 120px;
+        .login_phone{
+            float: left;width: 380px;height: 303px;
+            .login_top{
+                width: 380px;height: 20px;margin: 24px 0;margin-bottom:40px;
+                span{
+                    float: left;font-size: 18px;width: 169px;height:20px;line-height: 20px;margin: 0 10px;
+                    text-align: center;font-weight: 500;cursor: pointer;
+                }
+                span:hover{
+                    color: #B40707;
+                }
+                #code_btn{
+                    border-left: 1px solid #ccc;
+                }
+                .active{color: #B40707;}
+            }
+            //用户名登录
+            //登录页的两个input
+            .login_inp{
+                position: relative;display:block;//隐藏整个模块
+                p{
+                    height: 16px;line-height: 16px;
+                }
+                .danger{
+                    font-size:12px;margin: 0 auto;width: 328px;height:16px;line-height: 16px;color: orangered;
+                }
+               .user{
+                width: 328px;height: 46px;margin:0 auto;
+                input{
+                    width: 100%;line-height: 46px;border: 0;
+                    border-bottom: 1px solid #ccc;background: #fff;
+                    color: #333;
+                    
+                }
+                }
+                .pass{
+                    width: 328px;height: 46px;margin:5px auto;
+                    input{
+                        width: 100%;line-height: 46px;border: 0;
+                        border-bottom: 1px solid #ccc;background: #fff;
+                        color: #333;
+                    }
+                }
+                .code_login{
+                    display: block;
+                    width: 328px;height: 46px;margin:0 auto;line-height: 46px;
+                    font-size: 12px;
+                    a{
+                        color:#007dff;
+                        i{
+                            margin-right: 5px;
+                        }
+                    }   
+                }
+                //登录按钮 
+                .login_btn{
+                    width: 328px;height: 44px;text-align: center;line-height: 44px;margin: 0 auto;
+                    display: block;border-radius: 22px;border: 0;background: #B40707;color:#fff;font-weight: 900;
+                }
+                .allt{
+                    width: 328px;height: 46px;box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+                    border-radius: 12px;
+                    position: absolute;
+                    left: 20px;
+                    top: 137px;
+                    background: white;
+                    display: none;
+                    padding: 5px 5px;
+                }
+                .allt::before{
+                    content: "";width: 0;height: 0;display: block;border-left: 8px solid transparent;
+                    border-right: 8px solid transparent;border-top: 8px solid white;
+                    position: absolute;top: 56px;right: 280px;
+                }
+                .account{
+                    line-height: 46px;width:328px;height:46px;margin:0 auto;font-size:12px;
+                    .account_con{
+                       width:94px;height:46px;float: left;line-height:46px;cursor: pointer;
+                        .checkinp{
+                            width:15px;height:15px;margin-right: 7px;
+                        }
+                    }
+                    .mron{
+                        float:right;
+                        a{
+                            color:#007dff;
+                        }
+                    }
+                }
+                .mron_con{
+                    width: 75px;padding: 0 16px;height:162px;font-size: 14px;position: absolute;
+                    left: 237px;top: 230px;border-radius: 10px;box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+                    display: none;
+                    li{
+                        height:48px;line-height: 48px;text-align: center;border-bottom: 2px solid #ccc;
+                    }
+                    li:nth-child(3){
+                        border:0;
+                    }
+                }
+                .register{
+                    width: 328px;height: 12px;font-size: 12px;margin: 0 auto;
+                    text-align: center;
+                    .register_btn{
+                        margin-right: 10px;
+                        a{
+                            color: #007dff;
+                        }
+                    }
+                    .forget_btn{
+                        padding-left: 10px;border-left: 1px solid #ccc;
+                        a{
+                            color: #007dff;
+                        }
+                    }
+                }
+                //其他支付方式
+                .login_footer{
+                    width: 328px;height: 82px;position: absolute;top:350px;
+                    left: 25px;text-align: center;
+                    span{
+                        width: 328px;height: 12px;font-size: 12px;line-height: 12px;
+                        .left_hengxian{
+                            background: url(../images/login_footer_bg.png) no-repeat;
+                            display: inline-block;width: 94px;height: 6px;color:#ccc;
+                        }
+                        p{
+                            display: inline-block; margin: 0 20px;color: #ccc;
+                        }
+                        .right_hengxian1{
+                            background: url(../images/login_footer_bg.png) no-repeat -233px;
+                            display: inline-block;width: 94px;height: 11px;color:#ccc;
+                        }
+                    }
+                    .login_icon{
+                        margin: 10px auto;
+                        .icon-QQ1-copy,.icon-zhifubaozhifu,.icon-weixin{
+                           font-size: 42px;color:#777;
+                        }
+                        i{
+                            margin-right:20px;
+                        }
+                        i:hover{
+                            color: #007dff;
+                        }
+                    }   
+                }
+            }
+            //扫码登录样式
+            .login_ma{
+                display: none;
+                position: relative;
+                width: 380px;
+                height: 364px;
+                margin: 0 auto;
+                .ma_con{
+                    position: absolute;width: 150px;height: 150px;left: 109px;
+                    top: 27px;border: 1px solid #333;padding: 5px;
+                    img{
+                        width: 100%;height: 100%;  
+                    }
+                }
+
+                .ma_phone{
+                    position: absolute;left: 231px;
+                    width: 130px;height: 214px;opacity: 0;
+                }
+                .ma_foot{
+                    position: absolute;
+                    width: 360px;
+                    height:46px;
+                    padding: 0 10px;
+                    top: 280px;
+                    p{
+                        width: 360px;
+                        font-size: 13px;
+                        text-align: center;
+                        padding: 5px 0;
+                        span{
+                            color: #007dff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//登录页面底部样式
+#footer{
+    width: 100%;
+    background: #ebebeb;
+    float: left;
+    .footer_con{
+        margin:20px auto;
+        width: 1349px;
+        height: 42px;
+        font-size: 12px;
+        text-align: center;
+        p{
+            color: #999;
+            font-size: 12px;
+            line-height: 12px;
+            i:hover{
+                text-decoration:underline;
+            }
+        }
+        
+    }
+}

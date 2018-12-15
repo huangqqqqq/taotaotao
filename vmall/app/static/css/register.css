@@ -1,0 +1,149 @@
+#header {
+  width: 100%;
+  background: #333;
+  /* 注册页头部样式*/
+}
+#header .header_con {
+  width: 960px;
+  height: 67px;
+  margin: 0 auto;
+  position: relative;
+  color: #fff;
+}
+#header .header_con h1 {
+  float: left;
+  margin-right: 20px;
+}
+#header .header_con h1 img {
+  margin: 17px 0 0 4px;
+}
+#header .header_con div {
+  float: left;
+}
+/*主体内容部分*/
+#reg {
+  width: 100%;
+  background: #f2f2f2;
+  padding-bottom: 30px;
+}
+#reg .reg_con {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 30px;
+}
+#reg .reg_con .reg_header {
+  display: inline-block;
+}
+#reg .reg_con .reg_header div {
+  display: inline-block;
+  width: 146px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 12px;
+  color: #fff;
+  background: #ccc;
+  cursor: pointer;
+}
+#reg .reg_con .reg_header div i {
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+#reg .reg_con .reg_header .active {
+  background: #B40707;
+}
+#reg .reg_con .reg_login {
+  display: inline-block;
+  float: right;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+}
+#reg .reg_con .reg_inp {
+  width: 100%;
+  height: 524px;
+  background: #fff;
+  padding: 30px 270px;
+  font-size: 14px;
+}
+#reg .reg_con .reg_inp .area {
+  float: left;
+  width: 405px;
+}
+#reg .reg_con .reg_inp .area .reg_inp_area {
+  float: left;
+  width: 110px;
+  background: #ddd;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 30px 0 0 30px;
+  padding: 0 16px 0 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+#reg .reg_con .reg_inp .area .form-control {
+  width: 295px;
+  float: left;
+  border-radius: 0 30px 30px 0;
+  height: 42px;
+  background: #ddd;
+}
+#reg .reg_con .reg_inp .area .form-control option {
+  background: #fff;
+}
+#reg .reg_con .reg_inp form {
+  float: left;
+  width: 405px;
+}
+#reg .reg_con .reg_inp form .form-group {
+  float: left;
+  width: 405px;
+  margin: 15px 0;
+}
+#reg .reg_con .reg_inp form .form-group div {
+  float: left;
+  width: 110px;
+  background: #ddd;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 30px 0 0 30px;
+  padding: 0 16px 0 16px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+#reg .reg_con .reg_inp form .form-group input {
+  float: left;
+  width: 295px;
+  border-radius: 0 30px 30px 0;
+  height: 42px;
+  background: #ddd;
+}
+#reg .reg_con .reg_inp form .form-group .danger {
+  color: orangered;
+}
+#reg .reg_con .reg_inp form .btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  outline: 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  bottom: 30px;
+}
+#footer {
+  width: 100%;
+  background: #f2f2f2;
+}
+#footer .footer_con {
+  width: 960px;
+  margin: 0 auto;
+  color: #999;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#footer .footer_con p {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,25 @@
+/*
+公共属性，头部和底部样式
+*/
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+b,strong{font-weight: normal;}
+i,em{font-style: normal;}
+a{text-decoration: none;}
+a:hover{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: normal}
+ol,ul,dl,li{list-style: none;}
+img{border: 0;}
+input{outline:0;}
+select{outline: 0;}
+button{
+    outline:0;
+}
+*{
+    outline: 0;
+}
+
